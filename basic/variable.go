@@ -23,8 +23,8 @@ func main() {
 	f := 40.0 // go会自动推断f是整型
 	g := c - a
 
-	var h int = 4
-	var m = 4 //声明和赋值一行完成，但类型也是自动推断出来的
+	//var h int = 4
+	//var m = 4 //声明和赋值一行完成，但类型也是自动推断出来的
 
 	fmt.Printf("Hello World\n") //println 每行末尾追加换行符
 	//fmt.Printf("%d \n", c)       // printf  f是format
